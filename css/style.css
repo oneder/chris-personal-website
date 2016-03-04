@@ -62,8 +62,14 @@ body{
 	margin: 16vh auto 0;
 	text-align: center;
 }
-	#content #project{
-		
+	#content .post{
+		text-align: left;
+		color: #cccccc;
+		font-size: 1.2em;
+		margin: 15px auto;
+		padding: 10px;
+		background-color: #1a1a1a;
+		width: 85%;
 	}
 	#content .picon{
 		width: 18%;

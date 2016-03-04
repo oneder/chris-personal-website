@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <posts>
-	<post title="Title 2" date="February 26, 2016">
-		This is where I will post various updates or other information I want to share. This is also random filler text to
-		test this section. LLLJJJS SJSA kdjs c kdj jkk cskjna asjnak sjn asjaks. \\n
+	<post title="A100 Personal Project" date="February 26, 2016">
+		This is the very first post in the news section of my personal website. It is read in from an XML file by a script. 
+		I plan to use this news section to post various updates about what is going on in my life in terms of technology related
+		stuff. I am rambling on and on about nothing important... This is just filler text. This is the very first post in the news 
+		section of my personal website. It is read in from an XML file by a script. I plan to use this news section to post various 
+		updates about what is going on in my life in terms of technology related stuff. I am rambling on and on about nothing 
+		important... This is just filler text.
 	</post> 
-	<post title="Title 1" date="February 26, 2016">
-		This is where I will post various updates or other information I want to share. This is also random filler text to
-		test this section. LLLJJJS SJSA kdjs c kdj jkk cskjna asjnak sjn asjaks. \\n This is where I will post various updates
-		or other information I want to share. This is also random filler text to test this section. LLLJJJS SJSA kdjs c kdj 
-		jkk cskjna asjnak sjn asjaks. \\n
+	<post title="First Post" date="February 26, 2016">
+		This is the very first post in the news section of my personal website. It is read in from an XML file by a script. 
+		I plan to use this news section to post various updates about what is going on in my life in terms of technology related
+		stuff. I am rambling on and on about nothing important... This is just filler text.
 	</post> 
 	
 </posts>

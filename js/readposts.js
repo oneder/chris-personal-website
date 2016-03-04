@@ -37,4 +37,4 @@ function GetPosts(){
 		content = document.getElementById("content");
 		content.appendChild(newPost);
 	}
-}
+};

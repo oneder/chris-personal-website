@@ -23,16 +23,19 @@ function GetPosts(){
 			newPost.className = "post"
 		newTitle = document.createElement("h3");
 		newText = document.createElement("p");
+		newDate = document.createElement("span");
 		
 		titleText = document.createTextNode(title);
 		dateText = document.createTextNode(date);
 		newTitle.appendChild(titleText);
+		newDate.appendChild(dateText);
 		
 		postText = document.createTextNode(text);
 		newText.appendChild(postText);
 		
 		newPost.appendChild(newTitle);
 		newPost.appendChild(newText);
+		newPost.appendChild(newDate);
 		
 		content = document.getElementById("content");
 		content.appendChild(newPost);

@@ -15,14 +15,14 @@ body{
 	position: fixed;
 	margin: 0 auto;
 }
-	#header .user-link{
+	#header #user-link{
 		list-style-type: none;
 		position: absolute;
 		top: 0;
 		right: 0;
 		margin: 3px 10px;
 	}
-	#header .user-link li{
+	#header #user-link li{
 		font-size: .85em;
 		color: #ff9900;
 		float: left;
@@ -40,7 +40,7 @@ body{
 		color: white;
 		text-decoration: none;
 	}
-	#header .title{
+	#header #title{
 		font-size: 4em;
 		position: absolute;
 		bottom: 0;
@@ -74,6 +74,33 @@ body{
 	min-height: 78vh;
 	margin: 16vh auto 6vh;
 	text-align: center;
+}
+@keyframes fadein{
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+@-moz-keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+@-ms-keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+@-o-keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+.fader{
+	-webkit-animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	-ms-animation: fadein 2s;
+	-o-animation: fadein 2s;
+	animation: fadein 2s;
 }
 	#content .post{
 		text-align: left;
@@ -113,7 +140,7 @@ body{
 	}
 	#content #tagline{
 		color: #ff9900; 
-		font-size: 2em
+		font-size: 2em;
 	}
 	#content .description{
 		width: 45%;
@@ -252,7 +279,7 @@ body{
 	#header{
 		height: 14vh;
 	}
-	#header .title{
+	#header #title{
 		position: static;
 		float: left;
 	}
@@ -298,7 +325,7 @@ body{
 	#header{
 		text-align: right;
 	}
-	#header .title{
+	#header #title{
 		display: none;
 	}
 	#header #ank{
@@ -316,7 +343,7 @@ body{
 		list-style-type: none;
 		float: none;
 	}
-	#header .user-link{
+	#header #user-link{
 		display: none;
 	}
 	#content .picon{

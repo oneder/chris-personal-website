@@ -15,6 +15,19 @@ body{
 	position: fixed;
 	margin: 0 auto;
 }
+	#header .user-link{
+		list-style-type: none;
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin: 3px 10px;
+	}
+	#header .user-link li{
+		font-size: .85em;
+		color: #ff9900;
+		float: left;
+		margin: 0 2px;
+	}
 	#header a:link{
 		color: #cccccc;
 		text-decoration: none;
@@ -59,7 +72,7 @@ body{
 	width: 95%;
 	height: auto;
 	min-height: 78vh;
-	margin: 16vh auto 0;
+	margin: 16vh auto 6vh;
 	text-align: center;
 }
 	#content .post{
@@ -80,6 +93,18 @@ body{
 		margin: 22vh 45px 6vh;
 		padding: 10px;
 	}
+	#content a:link{
+		color: #ff9900;
+		text-decoration: none;
+	}
+	#content a:visited{
+		color: #ff9900;
+		text-decoration: none;
+	}
+	#content a:hover{
+		color: #ffb84d;
+		text-decoration: none;
+	}
 	#content #main-logo{
 		width: 35%;
 		max-width: 448px;
@@ -89,6 +114,12 @@ body{
 	#content #tagline{
 		color: #ff9900; 
 		font-size: 2em
+	}
+	#content .description{
+		width: 45%;
+		font-size: 1em;
+		margin: 15px auto 0;
+		color: #cccccc;
 	}
 	#content #personal{
 		float: left;
@@ -284,6 +315,9 @@ body{
 	#header #menu li{
 		list-style-type: none;
 		float: none;
+	}
+	#header .user-link{
+		display: none;
 	}
 	#content .picon{
 		width: 75%;

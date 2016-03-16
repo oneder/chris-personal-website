@@ -20,7 +20,7 @@ function GetPosts(){
 		text = posts[i].childNodes[0].nodeValue;
 		
 		newPost = document.createElement("div");
-			newPost.className = "post"
+		newPost.className = "post"
 		newTitle = document.createElement("h3");
 		newText = document.createElement("p");
 		newDate = document.createElement("span");

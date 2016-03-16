@@ -1,326 +1,384 @@
-body{
-	background-color: #1a1a1a;
-	font-family: verdana;
-	font-size: 1em;
-	margin: 0 auto;
-	white-space: normal;
+body {
+    background-color: #1a1a1a;
+    font-family: verdana;
+    font-size: 1em;
+    margin: 0 auto;
+    white-space: normal;
 }
 
-#header{
-	/*border: 1px solid red;*/
-	background-color: #1a1a1a;
-	width: 100%;
-	height: 16vh;
-	top:0;
-	position: fixed;
-	margin: 0 auto;
-}
-	#header .user-link{
-		list-style-type: none;
-		position: absolute;
-		top: 0;
-		right: 0;
-		margin: 3px 10px;
-	}
-	#header .user-link li{
-		font-size: .85em;
-		color: #ff9900;
-		float: left;
-		margin: 0 2px;
-	}
-	#header a:link{
-		color: #cccccc;
-		text-decoration: none;
-	}
-	#header a:visited{
-		color: #cccccc;
-		text-decoration: none;
-	}
-	#header a:hover{
-		color: white;
-		text-decoration: none;
-	}
-	#header .title{
-		font-size: 4em;
-		position: absolute;
-		bottom: 0;
-		margin: 0 8px;
-		padding: 5px;
-	}
-	#header #menu{
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		font-size: 1.2em;
-		float: right;
-	}
-	#header #menu li{
-		list-style-type: none;
-		margin: 10vh 8px 8px;
-		padding: 5px;
-		float: left;
-	}
-	#header #ank{
-		max-height: 12vh;
-		margin: 8px 20px;
-		display: none;
-	}
-
-#content{
-	/*border: 1px solid green;*/
-	background-color: #262626;
-	width: 95%;
-	height: auto;
-	min-height: 78vh;
-	margin: 16vh auto 6vh;
-	text-align: center;
-}
-	#content .post{
-		text-align: left;
-		color: #cccccc;
-		font-size: 1.2em;
-		margin: 15px auto;
-		padding: 10px;
-		background-color: #1a1a1a;
-		width: 85%;
-	}
-	#content .post span{
-		font-size: .6em;
-		color: #ff9900;
-	}
-	#content .picon{
-		width: 18%;
-		margin: 22vh 45px 6vh;
-		padding: 10px;
-	}
-	#content a:link{
-		color: #ff9900;
-		text-decoration: none;
-	}
-	#content a:visited{
-		color: #ff9900;
-		text-decoration: none;
-	}
-	#content a:hover{
-		color: #ffb84d;
-		text-decoration: none;
-	}
-	#content #main-logo{
-		width: 35%;
-		max-width: 448px;
-		margin: 16vh auto 0;
-		display: block;
-	}
-	#content #tagline{
-		color: #ff9900; 
-		font-size: 2em
-	}
-	#content .description{
-		width: 45%;
-		font-size: 1em;
-		margin: 15px auto 0;
-		color: #cccccc;
-	}
-	#content #personal{
-		float: left;
-	}
-	#content #personal #saunders{
-		max-width: 256px;
-		margin: 25px 25px 10px;
-	}
-	#content #personal #social{
-		list-style-type: none;
-		margin: 0 30px;
-		padding: 0;
-	}
-	#content #personal #social li{
-		margin: 0 3px;
-		padding: 0 5px;
-		float: left;
-	}
-	#content #info{
-		color: #cccccc;
-		text-align: left;
-		padding: 25px 0 ;
-		float: left;
-		width: 35%;
-		max-width: 512px;
-	}
-	#content #info #name{
-		font-size: 2.3em;
-	}
-	#content #info #biotag{
-		font-size: 1.2em;
-	}
-	#content #info #bio{
-		font-size: 1em;
-	}
-	#content #info #skilltag{
-		font-size: 1.2em;
-	}
-	#content #info #skills{
-		font-size: 1em;
-	}
-	#content #info #resume{
-		font-size: 1em;
-	}
-	#content #info #resume a:link{
-		text-decoration: none;
-		color: #ff9900;
-	}
-	#content #info #resume a:visited{
-		text-decoration: none;
-		color: #ff9900;
-	}
-	#content #info #resume a:hover{
-		text-decoration: none;
-		color: #ffad33;
-	}
-	#content #contactform{
-		width: 50%;
-		margin-left: 50%;
-		padding: 20px 0;
-	}
-	#content #contactform form{
-		width:85%;
-		text-align: left;
-		margin: 0 auto;
-	}
-	#content #contactform label{
-		display: block;
-		margin: 5px 20px;
-		font-size: 1.2em;
-		color: #ff9900;
-	}
-	#content #contactform input{
-		width: 45%;
-		margin: 0 20px;
-	}
-	#content #contactform textarea{
-		width: 80%;
-		min-height: 128px;
-		margin: 0 20px;
-	}
-	#content #contactform fieldset{
-		border: none;
-		padding: 10px;
-	}
-	#content #contactform .namelabel{
-		margin-top: 10px;
-	}
-	#content #contactform .btn{
-		width: 125px;
-		padding: 0;
-	}
-	#content #contactform h1{
-		color:#ff9900;
-		text-align: center;
-	}
-
-#footer{
-	/*border: 1px solid blue;*/
-	background-color: #1a1a1a;
-	width: 100%;
-	height: 6vh;
-	bottom: 0;
-	position: fixed;
-	text-align: center;
-}
-	#footer #copyright{
-		font-size: 1em;
-		color: #cccccc;
-	}
-
-@media screen and (max-width: 1200px){
-	#content #info{
-		width: 68%;
-		max-width: 960px;
-	}
-	#content #contactform{
-		margin: 0 auto 6vh;
-		width: 80%;
-	}
-	#content #contactform form{
-		width: 95%;
-	}
+#header {
+    /*border: 1px solid red;*/
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 16vh;
+    top: 0;
+    position: fixed;
+    margin: 0 auto;
 }
 
-@media screen and (max-width: 800px){
-	body{
-		white-space: nowrap;
-	}
-	#header{
-		height: 14vh;
-	}
-	#header .title{
-		position: static;
-		float: left;
-	}
-	#header #menu{
-		float: none;
-		clear: left;
-		width: 100%;
-		margin-left: 22px;
-	}
-	#header #menu ul{
-		margin: 0;
-		padding: 0;
-	}
-	#header #menu li{
-		margin: 0 8px;
-		padding: 5px;
-	}
-
-	#content{
-		max-height: 80vh;
-		margin-top: 14vh;
-		margin-bottom: 6vh;
-		white-space: normal;
-		overflow: scroll;
-		vertical-align: top;
-	}	
-	#content #main-logo{
-		width: 65%;
-		margin-top: 14vh;
-	}
-	#content #tagline{
-		color: #ff9900; 
-		font-size: 2em
-	}
-	#content .picon{
-		display: inline-block;
-		width: 65%;
-		margin: 20vh 45px 10vh;
-	}
+#header .user-link {
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 3px 10px;
 }
 
-@media screen and (max-width: 515px){
-	#header{
-		text-align: right;
-	}
-	#header .title{
-		display: none;
-	}
-	#header #ank{
-		display: initial;
-		float: left;
-	}
-	#header #menu{
-		list-style-type: none;
-		margin: 0;
-		position: absolute;
-		right: 0;
-		width: 50%;
-	}
-	#header #menu li{
-		list-style-type: none;
-		float: none;
-	}
-	#header .user-link{
-		display: none;
-	}
-	#content .picon{
-		width: 75%;
-		margin: 20vh 45px 18vh;
-	}
+#header .user-link li {
+    font-size: .85em;
+    color: #ff9900;
+    float: left;
+    margin: 0 2px;
+}
+
+#header a:link {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+#header a:visited {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+#header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#header .title {
+    font-size: 4em;
+    position: absolute;
+    bottom: 0;
+    margin: 0 8px;
+    padding: 5px;
+}
+
+#header #menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    float: right;
+}
+
+#header #menu li {
+    list-style-type: none;
+    margin: 10vh 8px 8px;
+    padding: 5px;
+    float: left;
+}
+
+#header #ank {
+    max-height: 12vh;
+    margin: 8px 20px;
+    display: none;
+}
+
+#content {
+    /*border: 1px solid green;*/
+    background-color: #262626;
+    width: 95%;
+    height: auto;
+    min-height: 78vh;
+    margin: 16vh auto 6vh;
+    text-align: center;
+}
+
+#content .post {
+    text-align: left;
+    color: #cccccc;
+    font-size: 1.2em;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #1a1a1a;
+    width: 85%;
+}
+
+#content .post span {
+    font-size: .6em;
+    color: #ff9900;
+}
+
+#content .picon {
+    width: 18%;
+    margin: 22vh 45px 6vh;
+    padding: 10px;
+}
+
+#content a:link {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+#content a:visited {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+#content a:hover {
+    color: #ffb84d;
+    text-decoration: none;
+}
+
+#content #main-logo {
+    width: 35%;
+    max-width: 448px;
+    margin: 16vh auto 0;
+    display: block;
+}
+
+#content #tagline {
+    color: #ff9900;
+    font-size: 2em
+}
+
+#content .description {
+    width: 45%;
+    font-size: 1em;
+    margin: 15px auto 0;
+    color: #cccccc;
+}
+
+#content #personal {
+    float: left;
+}
+
+#content #personal #saunders {
+    max-width: 256px;
+    margin: 25px 25px 10px;
+}
+
+#content #personal #social {
+    list-style-type: none;
+    margin: 0 30px;
+    padding: 0;
+}
+
+#content #personal #social li {
+    margin: 0 3px;
+    padding: 0 5px;
+    float: left;
+}
+
+#content #info {
+    color: #cccccc;
+    text-align: left;
+    padding: 25px 0;
+    float: left;
+    width: 35%;
+    max-width: 512px;
+}
+
+#content #info #name {
+    font-size: 2.3em;
+}
+
+#content #info #biotag {
+    font-size: 1.2em;
+}
+
+#content #info #bio {
+    font-size: 1em;
+}
+
+#content #info #skilltag {
+    font-size: 1.2em;
+}
+
+#content #info #skills {
+    font-size: 1em;
+}
+
+#content #info #resume {
+    font-size: 1em;
+}
+
+#content #info #resume a:link {
+    text-decoration: none;
+    color: #ff9900;
+}
+
+#content #info #resume a:visited {
+    text-decoration: none;
+    color: #ff9900;
+}
+
+#content #info #resume a:hover {
+    text-decoration: none;
+    color: #ffad33;
+}
+
+#content #contactform {
+    width: 50%;
+    margin-left: 50%;
+    padding: 20px 0;
+}
+
+#content #contactform form {
+    width: 85%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#content #contactform label {
+    display: block;
+    margin: 5px 20px;
+    font-size: 1.2em;
+    color: #ff9900;
+}
+
+#content #contactform input {
+    width: 45%;
+    margin: 0 20px;
+}
+
+#content #contactform textarea {
+    width: 80%;
+    min-height: 128px;
+    margin: 0 20px;
+}
+
+#content #contactform fieldset {
+    border: none;
+    padding: 10px;
+}
+
+#content #contactform .namelabel {
+    margin-top: 10px;
+}
+
+#content #contactform .btn {
+    width: 125px;
+    padding: 0;
+}
+
+#content #contactform h1 {
+    color: #ff9900;
+    text-align: center;
+}
+
+#footer {
+    /*border: 1px solid blue;*/
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 6vh;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
+
+#footer #copyright {
+    font-size: 1em;
+    color: #cccccc;
+}
+
+@media screen and (max-width: 1200px) {
+    #content #info {
+        width: 68%;
+        max-width: 960px;
+    }
+
+    #content #contactform {
+        margin: 0 auto 6vh;
+        width: 80%;
+    }
+
+    #content #contactform form {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        white-space: nowrap;
+    }
+
+    #header {
+        height: 14vh;
+    }
+
+    #header .title {
+        position: static;
+        float: left;
+    }
+
+    #header #menu {
+        float: none;
+        clear: left;
+        width: 100%;
+        margin-left: 22px;
+    }
+
+    #header #menu ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #header #menu li {
+        margin: 0 8px;
+        padding: 5px;
+    }
+
+    #content {
+        max-height: 80vh;
+        margin-top: 14vh;
+        margin-bottom: 6vh;
+        white-space: normal;
+        overflow: scroll;
+        vertical-align: top;
+    }
+
+    #content #main-logo {
+        width: 65%;
+        margin-top: 14vh;
+    }
+
+    #content #tagline {
+        color: #ff9900;
+        font-size: 2em
+    }
+
+    #content .picon {
+        display: inline-block;
+        width: 65%;
+        margin: 20vh 45px 10vh;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    #header {
+        text-align: right;
+    }
+
+    #header .title {
+        display: none;
+    }
+
+    #header #ank {
+        display: initial;
+        float: left;
+    }
+
+    #header #menu {
+        list-style-type: none;
+        margin: 0;
+        position: absolute;
+        right: 0;
+        width: 50%;
+    }
+
+    #header #menu li {
+        list-style-type: none;
+        float: none;
+    }
+
+    #header .user-link {
+        display: none;
+    }
+
+    #content .picon {
+        width: 75%;
+        margin: 20vh 45px 18vh;
+    }
 }

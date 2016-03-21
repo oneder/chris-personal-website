@@ -75,6 +75,8 @@ body {
 	margin: 16vh auto 6vh;
 	text-align: center;
 }
+
+
 @keyframes fadein {
 	from { opacity: 0; }
 	to { opacity: 1; }

@@ -16,21 +16,6 @@ body {
     margin: 0 auto;
 }
 
-#header .user-link {
-    list-style-type: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 3px 10px;
-}
-
-#header .user-link li {
-    font-size: .85em;
-    color: #ff9900;
-    float: left;
-    margin: 0 2px;
-}
-
 #header a:link {
     color: #cccccc;
     text-decoration: none;
@@ -54,7 +39,7 @@ body {
     padding: 5px;
 }
 
-#header #menu {
+#header .menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -62,14 +47,14 @@ body {
     float: right;
 }
 
-#header #menu li {
+#header .menu li {
     list-style-type: none;
     margin: 10vh 8px 8px;
     padding: 5px;
     float: left;
 }
 
-#header #ank {
+#header .ank {
     max-height: 12vh;
     margin: 8px 20px;
     display: none;
@@ -121,17 +106,27 @@ body {
     text-decoration: none;
 }
 
-#content #main-logo {
+#content .mainLogo {
     width: 35%;
     max-width: 448px;
     margin: 16vh auto 0;
     display: block;
 }
 
-#content #tagline {
+#content .tagline {
     color: #ff9900;
     font-size: 2em
 }
+
+#content .project {
+    width: 800px;
+    height: 600px;
+}
+
+ #content .projectMobile {
+    width: 640px;
+    height: 640px;
+ }
 
 #content .description {
     width: 45%;
@@ -140,28 +135,34 @@ body {
     color: #cccccc;
 }
 
-#content #personal {
+#content .disclaimer {
+    font-size: 1em;
+    color: #ff9900;
+    display: none;
+}
+
+#content .personal {
     float: left;
 }
 
-#content #personal #saunders {
+#content .personal .saunders {
     max-width: 256px;
     margin: 25px 25px 10px;
 }
 
-#content #personal #social {
+#content .personal .social {
     list-style-type: none;
     margin: 0 30px;
     padding: 0;
 }
 
-#content #personal #social li {
+#content .personal .social li {
     margin: 0 3px;
     padding: 0 5px;
     float: left;
 }
 
-#content #info {
+#content .info {
     color: #cccccc;
     text-align: left;
     padding: 25px 0;
@@ -170,90 +171,90 @@ body {
     max-width: 512px;
 }
 
-#content #info #name {
+#content .info .name {
     font-size: 2.3em;
 }
 
-#content #info #biotag {
+#content .info .biotag {
     font-size: 1.2em;
 }
 
-#content #info #bio {
+#content .info .bio {
     font-size: 1em;
 }
 
-#content #info #skilltag {
+#content .info .skilltag {
     font-size: 1.2em;
 }
 
-#content #info #skills {
+#content .info .skills {
     font-size: 1em;
 }
 
-#content #info #resume {
+#content .info .resume {
     font-size: 1em;
 }
 
-#content #info #resume a:link {
+#content .info .resume a:link {
     text-decoration: none;
     color: #ff9900;
 }
 
-#content #info #resume a:visited {
+#content .info .resume a:visited {
     text-decoration: none;
     color: #ff9900;
 }
 
-#content #info #resume a:hover {
+#content .info .resume a:hover {
     text-decoration: none;
     color: #ffad33;
 }
 
-#content #contactform {
+#content .contactform {
     width: 50%;
     margin-left: 50%;
     padding: 20px 0;
 }
 
-#content #contactform form {
+#content .contactform form {
     width: 85%;
     text-align: left;
     margin: 0 auto;
 }
 
-#content #contactform label {
+#content .contactform label {
     display: block;
     margin: 5px 20px;
     font-size: 1.2em;
     color: #ff9900;
 }
 
-#content #contactform input {
+#content .contactform input {
     width: 45%;
     margin: 0 20px;
 }
 
-#content #contactform textarea {
+#content .contactform textarea {
     width: 80%;
     min-height: 128px;
     margin: 0 20px;
 }
 
-#content #contactform fieldset {
+#content .contactform fieldset {
     border: none;
     padding: 10px;
 }
 
-#content #contactform .namelabel {
+#content .contactform .namelabel {
     margin-top: 10px;
 }
 
-#content #contactform .btn {
+#content .contactform .btn {
     width: 125px;
     padding: 0;
 }
 
-#content #contactform h1 {
+#content .contactform h1 {
     color: #ff9900;
     text-align: center;
 }
@@ -268,23 +269,23 @@ body {
     text-align: center;
 }
 
-#footer #copyright {
+#footer .copyright {
     font-size: 1em;
     color: #cccccc;
 }
 
 @media screen and (max-width: 1200px) {
-    #content #info {
+    #content .info {
         width: 68%;
         max-width: 960px;
     }
 
-    #content #contactform {
+    #content .contactform {
         margin: 0 auto 6vh;
         width: 80%;
     }
 
-    #content #contactform form {
+    #content .contactform form {
         width: 95%;
     }
 }
@@ -303,19 +304,19 @@ body {
         float: left;
     }
 
-    #header #menu {
+    #header .menu {
         float: none;
         clear: left;
         width: 100%;
         margin-left: 22px;
     }
 
-    #header #menu ul {
+    #header .menu ul {
         margin: 0;
         padding: 0;
     }
 
-    #header #menu li {
+    #header .menu li {
         margin: 0 8px;
         padding: 5px;
     }
@@ -329,12 +330,12 @@ body {
         vertical-align: top;
     }
 
-    #content #main-logo {
+    #content .mainLogo {
         width: 65%;
         margin-top: 14vh;
     }
 
-    #content #tagline {
+    #content .tagline {
         color: #ff9900;
         font-size: 2em
     }
@@ -343,6 +344,22 @@ body {
         display: inline-block;
         width: 65%;
         margin: 20vh 45px 10vh;
+    }
+
+    #content .project {
+        width: 640px;
+        height: 480px;
+    }
+
+    #content .description {
+        font-size: 1.2em;
+        width: 85%;
+    }
+
+    #content .disclaimer {
+        font-size: 1em;
+        color: #ff9900;
+        display: initial;
     }
 }
 
@@ -355,12 +372,12 @@ body {
         display: none;
     }
 
-    #header #ank {
+    #header .ank {
         display: initial;
         float: left;
     }
 
-    #header #menu {
+    #header .menu {
         list-style-type: none;
         margin: 0;
         position: absolute;
@@ -368,17 +385,28 @@ body {
         width: 50%;
     }
 
-    #header #menu li {
+    #header .menu li {
         list-style-type: none;
         float: none;
-    }
-
-    #header .user-link {
-        display: none;
     }
 
     #content .picon {
         width: 75%;
         margin: 20vh 45px 18vh;
+    }
+
+    #content .project {
+        width: 300px;
+        height: 220px;
+    }
+
+     #content .projectMobile {
+        width: 300px;
+        height: 300px;
+     }
+
+    #content .description {
+        font-size: 1em;
+        width: 85%;
     }
 }

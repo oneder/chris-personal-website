@@ -7,56 +7,52 @@
 
         <link rel="stylesheet" href="../css/style.css">
         <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-        <script src="js/"></script>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200italic,400,700">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
     <body>
      	<div id="header">
-     		<a href="../index.html"><span id="title">ONEDER TECH</span></a>
-            <a href="../index.html"><img id="ank" src="../res/ank_up.png" onmouseover="this.src='../res/ank_down.png';" onmouseout="this.src='../res/ank_up.png';">
-            <nav id="menu">
+     		<a href="../index.html"><span class="title">ONEDER TECH</span></a>
+            <a href="../index.html"><img class="ank" src="../res/ank_up.png" onmouseover="this.src='../res/ank_down.png';" onmouseout="this.src='../res/ank_up.png';">
+            <nav class="menu">
          		<ul>
          			<li><a href="news.html">News</a></li>
          			<li><a href="collection.html">Collection</a></li>
          			<li><a href="contact.html">Contact</a></li>
          		</ul>
             </nav>
-            <ul id="user-link">
-                <li><a href="sign-up.html">Sign Up</a></li>
-                <li>|</li>
-                <li><a href="login.html">Login</a></li>
-            </ul>
      	</div>
 
      	<div id="content">
-            <div id="personal">
-         		<img id="saunders" src="../res/saunders.jpg">
-                <ul id="social">
-                    <li><a href="https://www.facebook.com/shriscaunders" target="_blank"><img src="../res/fb-logo.png"></a></li>
-                    <li><a href="https://www.linkedin.com/in/oneder" target="_blank"><img src="../res/li-logo.png"></a></li>
-                    <li><a href="https://github.com/oneder?tab=repositories" target="_blank"><img src="../res/gh-logo.png"></a></li>
+            <div class="personal">
+         		<img class="saunders" src="../res/saunders.jpg">
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/shriscaunders" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/oneder" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
+                    <li><a href="https://github.com/oneder?tab=repositories" target="_blank"><i class="fa fa-github fa-3x"></i></a></li>
                 </ul>
             </div>
-            <div id="info">
-                <span id="name">Christopher Saunders</span><br>
-                <span id="biotag">Bio</span>
-                <p id="bio">
+            <div class="info">
+                <span class="name">Christopher Saunders</span><br>
+                <span class="biotag">Bio</span>
+                <p class="bio">
                     Hello! I am a student at Universtiy of Connecticut pursuing a bachelor's degree in computer science.
                     I have strong interests in software engineering and game development. In spring 2015, I graduated from Manchester 
                     Community College with an associate's degree in computer game design.<br><br>
                     I spend my free time sharpening my programming skills, playing the guitar and enjoying the outdoors. On top 
                     of these things, I also enjoy philosophy, writing poetry, listening to music and food... Food is cool.
                 </p>
-                <span id="skilltag">Skills</span>
-                <p id="skills">
+                <span class="skilltag">Skills</span>
+                <p class="skills">
                     <b>Well versed in</b>: Java, HTML5, CSS3, ActionScript 3.0, Adobe Creative Suite (including Flash, Photoshop, and 
                     Illustrator), Microsoft Office (including Word, Power Point and Excel) and Lightwave 3D (including Modeler and Layout)<br><br>
                     <b>Minimal experience with</b>: C++, Javascript, Latex, Assembly Language and Final Cut Pro<br><br>
                     
-                    <span id="resume"><a href="../res/SaundersResume2016.pdf" target="_blank">View full resume</a></span>
+                    <span class="resume"><a href="../res/SaundersResume2016.pdf" target="_blank">View full resume</a></span>
                 </p>
             </div>
-            <div id="contactform">
-                <form>
+            <div class="contactform">
+                <form action="../php/contact.php" method="post">
                     <fieldset>
                         <h1>Contact me.</h1>
                         
@@ -77,7 +73,7 @@
      	</div>
 
      	<div id="footer">
-     		<br><span id="copyright">Oneder Tech &copy; 2016</span>
+     		<br><span class="copyright">Oneder Tech &copy; 2016</span>
      	</div>
     </body>
 </html>
